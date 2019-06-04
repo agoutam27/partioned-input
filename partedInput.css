@@ -1,0 +1,34 @@
+.parted-input {
+    border: 0;
+    background-image: linear-gradient(to left, black 45%, rgba(255, 255, 255, 0) 0%);
+    background-position: bottom;
+    background-size: 50px 1px;
+    background-repeat: no-repeat;
+    background-position-x: -21px;
+    text-align: center;
+    max-width: 40px;
+}
+.parted-input.square {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    background-image: none; 
+    background-position: bottom;
+    background-size: 50px 1px;
+    background-repeat: no-repeat;
+    background-position-x: -21px;
+    text-align: center;
+}
+
+.parted-input:focus {
+    outline: none;
+}
+
+.parted-input::-webkit-inner-spin-button,
+.parted-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

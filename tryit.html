@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="/partedInput.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script src="/partedInput.angular.js"></script>
+    <script src="/partedInput.jquery.js"></script>
+    <script src="/script.js"></script>
+
+</head>
+
+<body onload="start()" ng-app="app" ng-controller="ctrl">
+    <div>
+        <div id="parted">
+        </div>
+        <br />
+        <br />
+        <button onclick="window.click()">Get Data</button>
+    </div>
+    <h1><hr /></h1>
+    <div>
+        <parted-input size=6 type="'text'" 
+                regex="'\\w'" ng-model="otpVal">
+            </parted-input>
+            <br />
+            <br />
+            <br />
+            otpVal = {{otpVal}}
+    </div>
+
+</body>
+
+</html>
