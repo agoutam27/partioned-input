@@ -37,6 +37,7 @@ angular
             }, true);
 
             scope.keydown = function (event, index) {
+                event = event.originalEvent || event;
                 event.preventDefault();
                 var element = angular.element(event.srcElement || event.currentTarget);
                 var isFirst = index === 0;
