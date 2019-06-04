@@ -41,3 +41,7 @@ This repository gives you a jquery plugin and angularjs directive to integrate m
 	 
 	// To initialize with value
 	$scope.inputVal = <String> | <Number> | <Array>
+	
+	
+# DEMO
+[Check out working plunker](https://plnkr.co/edit/cwxMpbZ9qpbfXLtkcdIe?p=preview)
