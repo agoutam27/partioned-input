@@ -62,6 +62,7 @@ angular
             }
 
             scope.pasteFun = function (event) {
+                event = event.originalEvent || event;
                 event.preventDefault();
                 if (!event || !event.clipboardData) {
                     return false;
