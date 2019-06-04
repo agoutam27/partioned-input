@@ -28,8 +28,8 @@ This repository gives you a jquery plugin and angularjs directive to integrate m
 		size=6 							// Default size is 4
 		type="'text'" 					// any text or number input, default is text
 		regex="'\\w'"					// regex to be checked on every input
-		styleClass="'otpinput'"			// 'parted-input' is default class
-		styleIdPrefix="'otp-input-'"	// from 0 to size-1, id will be assined using this id as prefix, default prefix is 'input-part-'
+		styleClass="'otpinput'"					// 'parted-input' is default class
+		styleIdPrefix="'otp-input-'"			// from 0 to size-1, id will be assined using this id as prefix, default prefix is 'input-part-'
 		ng-model="inputVal">
 	</parted-input>
 	
