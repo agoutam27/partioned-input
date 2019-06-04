@@ -38,7 +38,7 @@ angular
 
             scope.keydown = function (event, index) {
                 event.preventDefault();
-                var element = angular.element(event.srcElement);
+                var element = angular.element(event.srcElement || event.currentTarget);
                 var isFirst = index === 0;
                 var isLast = index === (scope.size - 1);
 
